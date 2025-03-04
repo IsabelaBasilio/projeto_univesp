@@ -1,0 +1,34 @@
+/* Estilo do footer */
+.footer {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os elementos */
+    align-items: center; /* Alinha verticalmente */
+    padding: 15px 20px; /* Espaçamento interno */
+    background-color: #007bff; /* Fundo azul */
+    color: #fff; /* Cor do texto */
+    font-size: 14px;
+  }
+  
+  /* Estilo da seção de redes sociais */
+  .social {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os ícones */
+  }
+  
+  /* Estilo dos ícones */
+  .icon {
+    width: 24px; /* Tamanho dos ícones */
+    height: 24px; /* Tamanho dos ícones */
+    transition: transform 0.3s ease; /* Efeito de hover */
+  }
+  
+  /* Efeito ao passar o mouse sobre os ícones */
+  .icon:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone */
+  }
+  
+  /* Estilo da seção "Univesp" */
+  .univesp {
+    font-weight: bold;
+    font-size: 16px;
+  }

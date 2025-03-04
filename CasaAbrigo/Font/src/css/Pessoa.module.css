@@ -1,0 +1,101 @@
+/* Estilo do container principal */
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9; /* Fundo claro */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  }
+  
+  /* Estilo do título */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Cor do texto */
+  }
+  
+  /* Estilo do formulário */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os campos */
+  }
+  
+  /* Estilo dos campos de entrada */
+  .form input,
+  .form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    box-sizing: border-box;
+  }
+  
+  /* Estilo dos botões */
+  .button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* Cor do texto */
+    background-color: #007bff; /* Azul */
+    border: none;
+    border-radius: 20px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição ao passar o mouse */
+  }
+  
+  /* Efeito hover nos botões */
+  .button:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+  }
+  
+  /* Estilo da tabela */
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Linhas horizontais */
+  }
+  
+  .table th {
+    background-color: #007bff; /* Cabeçalho azul */
+    color: #fff; /* Texto branco */
+  }
+  
+  /* Estilo dos botões de ação na tabela */
+  .action-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-buttons .edit-button {
+    background-color: #28a745; /* Verde */
+    color: #fff;
+  }
+  
+  .action-buttons .delete-button {
+    background-color: #dc3545; /* Vermelho */
+    color: #fff;
+  }
+  
+  .action-buttons .edit-button:hover {
+    background-color: #218838; /* Verde mais escuro */
+  }
+  
+  .action-buttons .delete-button:hover {
+    background-color: #c82333; /* Vermelho mais escuro */
+  }

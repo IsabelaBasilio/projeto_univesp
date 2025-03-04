@@ -1,0 +1,74 @@
+/* Estilo do container principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Movido para o topo */
+  height: 100vh;
+  padding-top: 50px; /* Espaçamento no topo */
+  background-image: url("../imagem/CasaAbrigoFundo.png"); /* Caminho da imagem de fundo */
+  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+}
+
+/* Estilo do formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos grupos de entrada */
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+/* Estilo dos rótulos */
+.inputGroup label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block; /* Garante que o label fique acima do campo */
+}
+
+/* Estilo dos campos de entrada */
+.inputGroup input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilo das mensagens de erro */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Estilo do botão */
+.button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff; /* Azul */
+  border: none;
+  border-radius: 20px; /* Bordas arredondadas */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efeito de transição ao passar o mouse */
+}
+
+/* Efeito hover no botão */
+.button:hover {
+  background-color: #0056b3; /* Azul mais escuro */
+}

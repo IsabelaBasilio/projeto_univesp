@@ -1,0 +1,93 @@
+.presenca-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #f5faff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004080;
+  }
+  
+  .form-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .form-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
+    gap: 12px;
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 15px;
+  }
+  
+  .form-grid input {
+    padding: 8px;
+    font-size: 14px;
+    flex: 1;
+    min-width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .reuniao-input {
+    width: 40px !important; /* Reduz ainda mais o tamanho dos campos de reunião */
+    min-width: unset !important;
+    text-align: center;
+    padding: 2px; /* Reduz o espaçamento interno */
+    font-size: 12px;
+    flex: none; /* Impede que o campo se expanda no layout flex */
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    width: 80px;
+    padding: 6px 0;
+    font-size: 14px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    background-color: #0066cc;
+  }
+  
+  .tabela-presenca {
+    width: 95%;
+    max-width: 1400px;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .tabela-presenca th,
+  .tabela-presenca td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tabela-presenca th {
+    background-color: #e6f0ff;
+  }
